@@ -1,9 +1,10 @@
 # app.py
 # This script loads a trained model and hosts it as a Flask API.
+import os
 from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
-import os
+
 
 # Create the Flask application
 app = Flask(__name__)
